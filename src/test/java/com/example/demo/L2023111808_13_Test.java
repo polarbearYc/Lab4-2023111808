@@ -30,7 +30,7 @@ public class L2023111808_13_Test { //
     @Test // [cite: 32]
     public void testExample1() {
         int[] nums = {2, 0, 2, 1, 1, 0};
-        int[] expected = {1, 0, 1, 1, 2, 2};
+        int[] expected = {0, 0, 1, 1, 2, 2};
         solution.sortColors(nums);
         assertArrayEquals(expected, nums);
     }
