@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 import java.util.Arrays; // 导入 Arrays 用于 assertArrayEquals
 
 /**
- * 测试用例设计总体原则：
+ * 测试用例设计总体原则：test
  * * 1. 等价类划分：[cite: 33]
  * - 有效等价类 (E1)：数组包含 0, 1, 2 三种元素 (e.g., 示例1: [2,0,2,1,1,0])
  * - 有效等价类 (E2)：数组已排序 (e.g., [0,0,1,2,2])
